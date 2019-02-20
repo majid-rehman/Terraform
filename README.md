@@ -1,6 +1,6 @@
 # terraform-infrastructure-as-code
 
-###### AWS Setup
+## AWS Setup
 
 Here are some notes to clarify the setup
 Make sure you have installed the AWS CLI
@@ -30,7 +30,7 @@ $ cat terraform.tfstate                           # show state in JSON format
 
 
 
-###### Using putty instead of the ssh command
+## Using putty instead of the ssh command
 
 This is explained using MacOS/Linux. If you rather want to use putty, use the following steps to create your SSH keypair:
 
@@ -42,9 +42,9 @@ Save the public and private keys by clicking the Save public key and Save privat
 
 Reference Documentation
 
-Download URL: https://www.terraform.io/downloads.html
-AWS Resources: https://www.terraform.io/docs/providers/aws/
-List of providers: https://www.terraform.io/docs/providers/index.html
+> Download URL: https://www.terraform.io/downloads.html
+> AWS Resources: https://www.terraform.io/docs/providers/aws/
+> List of providers: https://www.terraform.io/docs/providers/index.html
 
 
 # Practise overview
