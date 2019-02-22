@@ -16,7 +16,11 @@ Default output format [None]: json
 ```
 $sudo apt-get install ntpdate; sudo ntpdate ntp.ubuntu.com
 ```
-
+###### You need to initialize terraform in every new module 
+```
+$terraform init
+```
+###### Now Apply terraform to see changes 
 ```
 $terraform apply
 ```
